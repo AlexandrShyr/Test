@@ -1,0 +1,165 @@
+body {
+	font-family: 'Rubik', sans-serif;
+	font-weight: 400;
+}
+
+a {
+	text-decoration: none;
+	color: #333333;
+	font-size: 12px;
+	line-height: 14px;
+	font-family: 'Rubik', sans-serif;
+}
+
+.header {
+	background-color: #e5e5e5;
+	height: 74px;
+	display: flex;
+	align-items: center;
+}
+.text {
+	font-size: 12px;
+}
+p {
+	margin: 0%;
+	line-height: 14px;
+}
+
+.catalog {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.i-catalog {
+	background-image: url(img/search.svg);
+	width: 20px;
+	height: 20px;
+	background-repeat: no-repeat;
+	margin-right: 12px;
+}
+
+.dropbtn {
+	background-color: #7fc700;
+	border-radius: 3px;
+	color: #333333;
+	padding: 8px 16px;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-content {
+	margin-top: 31px;
+	display: none;
+	position: absolute;
+	background-color: white;
+	min-width: 250px;
+	z-index: 1;
+	border: 1px solid #e5e5e5;
+	box-sizing: border-box;
+	border-radius: 3px;
+}
+
+.dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	font-size: 14px;
+	line-height: 17px;
+}
+
+.dropdown-content a:hover {
+	background-color: #e5e5e5;
+}
+
+.show {
+	display: block;
+}
+
+.list-content {
+	padding: 12px;
+	margin-top: -40px;
+	left: 262px;
+	display: inline-block;
+	position: absolute;
+	min-width: 270px;
+	z-index: 1;
+	border-radius: 3px;
+	box-sizing: border-box;
+	border: 1px solid #e5e5e5;
+	font-size: 14px;
+	line-height: 17px;
+	font-weight: bold;
+	opacity: 0;
+	visibility: hidden;
+	transition-property: opacity, visibility;
+	transition-duration: 0.2s;
+	transition-delay: 0.15s;
+}
+
+.submenu:hover .list-content {
+	opacity: 1;
+	visibility: visible;
+}
+
+.list-content a:hover {
+	background-color: white;
+	color: #7fc700;
+}
+
+.list-content a {
+	padding: 8px 0 8px 24px;
+	font-size: 12px;
+	line-height: 14px;
+	font-weight: 400;
+	display: flex;
+}
+
+.list-content span {
+	padding-left: 12px;
+	opacity: 0.3;
+}
+.menu {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.menu a {
+	margin: 12px;
+}
+
+.menu a:hover {
+	color: #7fc700;
+}
+
+.number {
+	display: flex;
+	align-items: center;
+	justify-content: end;
+}
+
+.number a {
+	font-size: 14px;
+	line-height: 17px;
+}
+
+.number a:hover {
+	color: #333333;
+}
+
+.i-phone {
+	background-image: url(img/phone.svg);
+	height: 20px;
+	width: 20px;
+	margin-right: 12px;
+}

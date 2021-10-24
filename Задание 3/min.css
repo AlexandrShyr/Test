@@ -1,0 +1,48 @@
+body {
+	font-family: Rubik;
+	font-size: 14px;
+	line-height: 17px;
+	font-weight: 400;
+}
+
+h1,
+h2 {
+	font-weight: 700;
+}
+
+h1 {
+	margin-top: 20px;
+	font-size: 34px;
+	line-height: 40px;
+}
+
+h2 {
+	padding: 24px 0;
+	font-size: 20px;
+	line-height: 24px;
+}
+
+.item {
+	display: flex;
+}
+
+.item__img img {
+	max-width: 196px;
+	padding-bottom: 10px;
+}
+
+.btn {
+	max-width: 236px;
+	margin-left: auto;
+	margin-top: 15px;
+	padding-right: 15px;
+}
+
+.btn button {
+	background: #7fc700;
+	border: none;
+	border-radius: 3px;
+	font-size: 14px;
+	line-height: 17px;
+	padding: 12px 20px;
+}
